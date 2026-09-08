@@ -1,443 +1,188 @@
-# Fiori & Spineli
+<div align="center">
 
-**Software, dados e ideias transformadas em produtos.**
+  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/assets/logo.png" alt="Fiori & Spineli" width="240" />
 
-A **Fiori & Spineli** é uma organização independente criada por **Lucas Fiori** e **Samuel Spineli** para desenvolver software, experimentar tecnologias e transformar problemas reais em produtos digitais.
+  <br />
 
-Nosso foco está na interseção entre **engenharia de software, desenvolvimento de aplicações, dados e experiência de usuário** — construindo soluções que sejam tecnicamente sólidas, simples de utilizar e capazes de resolver problemas concretos.
+  <p align="center">
+    <img src="https://img.shields.io/badge/FIORI%20%26%20SPINELI-ORGANIZAÇÃO%20DE%20TECNOLOGIA-18181B?style=for-the-badge" alt="Organização" />
+    <img src="https://img.shields.io/badge/ENGENHARIA-SOFTWARE%20SOB%20MEDIDA-4D3A99?style=for-the-badge" alt="Engenharia" />
+    <img src="https://img.shields.io/badge/INTELIGÊNCIA-DADOS%20%26%20PRODUTO-2F6A44?style=for-the-badge" alt="Dados" />
+  </p>
 
-> **Construir coisas úteis. Entender o problema. Fazer direito.**
+  <p align="center">
+    <strong>Desenvolvimento de produtos digitais, sistemas operacionais de alto desempenho e soluções orientadas a dados.</strong><br />
+    Projetamos e entregamos tecnologia robusta para resolver gargalos operacionais e viabilizar novos modelos de negócio.
+  </p>
 
----
+  <p align="center">
+    <a href="https://github.com/fiori-spineli"><img src="https://img.shields.io/badge/GitHub-fiori--spineli-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Org" /></a>
+    <img src="https://img.shields.io/badge/Status-Projetos%20em%20Produção-2F6A44?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Atuação-Nacional%20%26%20Remota-4D3A99?style=flat-square" alt="Atuação" />
+  </p>
 
-## O que fazemos
-
-A Fiori & Spineli funciona como um espaço para transformar ideias em software.
-
-Trabalhamos principalmente com:
-
-* Desenvolvimento de aplicações web e mobile
-* Engenharia e arquitetura de software
-* Modelagem e gerenciamento de dados
-* APIs e integrações
-* Automação de processos
-* Data Science e aplicações orientadas a dados
-* Prototipação e validação de produtos
-* Experimentação com novas tecnologias
-
-Nem todo projeto nasce para virar produto.
-
-Alguns existem para aprender, testar uma hipótese ou explorar uma tecnologia. Outros começam pequenos e evoluem até se tornarem sistemas completos.
-
-A organização existe para dar um lugar comum a todos eles.
+</div>
 
 ---
 
-## Projetos
+### Visão Institucional
 
-### 🍻 Buteco
+A **Fiori & Spineli** atua na concepção, estruturação técnica e lançamento de soluções digitais prontas para o mercado. Unimos engenharia de software de alta confiabilidade a estratégias sólidas de dados para transformar necessidades comerciais complexas em produtos simples de operar e tecnicamente sustentáveis a longo prazo.
 
-**O caderninho de contas do buteco, no celular.**
-
-O **Buteco** é o primeiro produto desenvolvido pela Fiori & Spineli.
-
-A ideia é simples: substituir o tradicional caderninho de contas por uma experiência digital que não complique a vida de ninguém.
-
-O dono do estabelecimento lança o consumo e o cliente acompanha sua própria conta através de um **link ou QR Code**, sem precisar instalar aplicativo ou criar uma conta.
-
-#### Principais características
-
-* Comandas digitais
-* Cadastro de produtos
-* Lançamento de consumo
-* Acompanhamento da conta pelo cliente
-* Acesso através de QR Code
-* Acesso público sem criação de conta
-* Divisão de conta
-* Gestão de produtos e imagens
-* Autenticação do proprietário por Magic Link
-* Controle de acesso utilizando Row Level Security
-* Interface responsiva para celular
-
-#### Stack
-
-| Camada                   | Tecnologia                              |
-| ------------------------ | --------------------------------------- |
-| Frontend                 | Next.js 16 + React 19                   |
-| Runtime / Bundler        | Turbopack                               |
-| Estilo                   | Tailwind CSS v4                         |
-| Backend                  | Next.js Server Actions / Route Handlers |
-| Banco de dados           | PostgreSQL                              |
-| Plataforma               | Supabase                                |
-| Autenticação             | Supabase Auth                           |
-| Autorização              | PostgreSQL RLS                          |
-| QR Code                  | `qrcode.react`                          |
-| Compressão de imagens    | `browser-image-compression`             |
-| Processamento de imagens | `sharp`                                 |
-| Linguagem                | TypeScript                              |
-
-### Arquitetura
-
-O Buteco foi projetado como uma aplicação web full-stack, mantendo o máximo possível da lógica próxima ao domínio da aplicação e utilizando o PostgreSQL como camada central de persistência e controle de acesso.
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                    BUTECO APP                       │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  Proprietário                 Cliente               │
-│       │                          │                  │
-│       │ Dashboard                │ QR / Link        │
-│       ▼                          ▼                  │
-│  ┌───────────┐             ┌──────────────┐        │
-│  │ Next.js   │             │ Página       │        │
-│  │ App       │             │ Pública      │        │
-│  └─────┬─────┘             └──────┬───────┘        │
-│        │                            │                │
-│        └────────────┬───────────────┘                │
-│                     ▼                                │
-│              ┌─────────────┐                        │
-│              │   Supabase  │                        │
-│              ├─────────────┤                        │
-│              │ PostgreSQL  │                        │
-│              │ Auth        │                        │
-│              │ Storage     │                        │
-│              │ RLS         │                        │
-│              └─────────────┘                        │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
-
-Uma decisão importante do projeto é que o cliente **não recebe acesso direto às tabelas do banco**.
-
-A consulta pública passa por uma função específica, `comanda_publica(token)`, evitando que um usuário anônimo consiga enumerar comandas ou dados de outros estabelecimentos apenas por possuir a chave pública da aplicação.
+Nosso diferencial competitivo reside no equilíbrio: eliminamos atritos e burocracias para o usuário na ponta final, enquanto mantemos uma base técnica estrita em segurança, precisão transacional e disponibilidade.
 
 ---
 
-## Princípios técnicos
+### Soluções e Produtos
 
-Algumas decisões são consideradas fundamentais nos nossos projetos.
+Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado corporativo e comercial:
 
-### Precisão antes de conveniência
-
-Valores monetários não são armazenados como ponto flutuante.
-
-No Buteco, dinheiro é representado como **inteiro em centavos**, evitando problemas clássicos de precisão numérica.
-
-```text
-R$ 12,50
-   ↓
-1250 centavos
-```
-
-### Segurança no banco
-
-Autenticação e autorização não são consideradas apenas responsabilidades do frontend.
-
-Quando possível, as próprias regras de acesso são reforçadas no banco através de **Row Level Security (RLS)**.
-
-### Menor privilégio
-
-O fato de uma aplicação possuir uma chave pública não significa que ela deve possuir acesso irrestrito aos dados.
-
-A arquitetura procura expor somente aquilo que cada fluxo realmente precisa.
-
-### Simplicidade para o usuário
-
-Tecnologia não deve aparecer onde não precisa.
-
-No Buteco, o cliente não precisa:
-
-* instalar aplicativo;
-* criar conta;
-* lembrar senha;
-* procurar o estabelecimento;
-* aprender uma interface complexa.
-
-Ele simplesmente escaneia o QR Code e vê sua conta.
-
----
-
-## Estrutura do Buteco
-
-```text
-app/
-├── (auth)/
-│   └── login/                  # Entrada por Magic Link
-│
-├── (dashboard)/
-│   ├── dashboard/              # Resumo e comandas
-│   ├── comanda/
-│   │   ├── nova/               # Nova comanda
-│   │   └── [id]/               # Gestão da comanda
-│   └── produtos/               # Catálogo de produtos
-│
-├── c/
-│   └── [token]/                # Página pública do cliente
-│
-├── api/
-│   └── produtos/
-│       └── imagem/             # Processamento de imagens
-│
-├── actions/                    # Server Actions
-│
-components/                     # Componentes compartilhados
-lib/                            # Infraestrutura e utilidades
-supabase/
-└── migrations/                 # Schema versionado
-
-proxy.ts                        # Renovação de sessão
-```
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Buteco &bull; Comanda Digital Inteligente</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Produto-Disponível%20ao%20Mercado-2F6A44?style=flat-square" alt="Status Produto" />
+      </p>
+      <p>
+        Plataforma desenvolvida para simplificar a gestão de consumo e cobrança em bares, restaurantes e eventos gastronômicos.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li><strong>Sem download e sem cadastro:</strong> O consumidor aponta a câmera do celular para o QR Code da mesa e acessa a conta em tempo real, sem necessidade de baixar aplicativos ou criar logins.</li>
+        <li><strong>Redução de filas e erros:</strong> Transparência imediata de consumo, permitindo divisão de conta instantânea e fechamento ágil de pedidos.</li>
+        <li><strong>Painel de Gestão para o Gestor:</strong> Controle completo do fluxo de comandas, catálogo de itens e relatórios de faturamento pelo celular ou computador.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Engenharia &bull; Sistemas Web e Mobile sob Demanda</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Serviço-Desenvolvimento%20Ativo-4D3A99?style=flat-square" alt="Status Serviço" />
+      </p>
+      <p>
+        Concepção de plataformas corporativas, painéis de operação internos e sistemas SaaS personalizados para negócios em expansão.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li><strong>Softwares rápidos e escaláveis:</strong> Aplicações modernas com tempos de resposta mínimos e estabilidade comprovada sob alta demanda.</li>
+        <li><strong>Segurança corporativa:</strong> Isolamento estrito de dados, conformidade com privacidade e proteção de transações críticas.</li>
+        <li><strong>Foco no retorno sobre investimento:</strong> Interfaces intuitivas desenhadas especificamente para reduzir custos operacionais e acelerar tarefas do dia a dia.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Dados &bull; Modelagem e Inteligência de Decisão</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Frente-Análise%20%26%20Estratégia-4D3A99?style=flat-square" alt="Status Dados" />
+      </p>
+      <p>
+        Estruturação de bancos de dados eficientes, automações analíticas e aplicação de aprendizado de máquina para tomada de decisão fundamentada.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li>Organização e consolidação de dados transacionais fragmentados.</li>
+        <li>Dashboards executivos com métricas claras de desempenho.</li>
+        <li>Modelos estatísticos e preditivos para controle de estoque, sazonalidade e comportamento de clientes.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Automação &bull; Otimização de Processos Comerciais</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Frente-Eficiência%20Operacional-2F6A44?style=flat-square" alt="Status Automação" />
+      </p>
+      <p>
+        Integração entre sistemas legados, gateways de pagamento, mensageria e ferramentas de atendimento.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li>Eliminação de tarefas manuais e retrabalho de planilhas.</li>
+        <li>Fluxos automatizados de notificação e faturamento.</li>
+        <li>Sincronização em tempo real entre vendas, estoque e retaguarda financeira.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Documentação
+### Liderança Técnica
 
-O código é apenas uma parte dos projetos.
+A organização reúne competências complementares de liderança em dados e arquitetura de sistemas:
 
-Para o Buteco, mantemos documentação de arquitetura, decisões técnicas, diagramas e wireframes.
-
-* **Arquitetura técnica:** `ButecoApp - Arquitetura Tecnica.docx`
-* **Diagramas e wireframes:** `docs/LINKS.md`
-
----
-
-## Como executar o Buteco
-
-### 1. Criar o projeto no Supabase
-
-Crie um projeto no [Supabase](https://supabase.com/).
-
-O plano gratuito é suficiente para desenvolvimento e testes iniciais.
-
-Depois, abra o **SQL Editor** e execute:
-
-```text
-supabase/migrations/0001_init.sql
-```
-
-O `0001_init.sql` representa o schema completo e idempotente do projeto, incluindo:
-
-* tabelas;
-* relacionamentos;
-* índices;
-* políticas RLS;
-* função de acesso público;
-* bucket de imagens;
-* grants necessários.
-
-As migrations `0002`, `0003` e `0004` são correções históricas destinadas a instalações antigas.
-
-Em uma instalação nova, o `0001_init.sql` já representa o estado final esperado.
-
----
-
-### 2. Configurar as variáveis de ambiente
-
-Copie o arquivo de exemplo:
-
-```bash
-cp .env.example .env.local
-```
-
-Preencha as credenciais do projeto Supabase.
-
-Depois:
-
-```bash
-npm install
-npm run dev
-```
-
-A aplicação estará disponível em:
-
-```text
-http://localhost:3000
-```
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <br />
+        <img src="https://github.com/fiori007.png" width="95" style="border-radius: 50%;" alt="Lucas Fiori" />
+        <h3>Lucas Fiori</h3>
+        <p><strong>Ciência de Dados e Engenharia de Aplicações</strong></p>
+        <p>
+          <a href="https://github.com/fiori007"><img src="https://img.shields.io/badge/GitHub-fiori007-18181B?style=flat-square&logo=github&logoColor=white" alt="Lucas Fiori GitHub" /></a>
+          <a href="https://www.linkedin.com/in/lucas-fiori/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Lucas Fiori LinkedIn" /></a>
+        </p>
+      </div>
+      <p>Responsável pelo direcionamento analítico e inteligência de dados da organização:</p>
+      <ul>
+        <li>Modelagem estatística, Machine Learning e automação analítica.</li>
+        <li>Estruturação e organização de bancos de dados relacionais e analíticos.</li>
+        <li>Desenvolvimento de aplicações com foco na interpretação e fluxo de informações em tempo real.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <br />
+        <img src="https://github.com/samuelspineli34.png" width="95" style="border-radius: 50%;" alt="Samuel Spineli" />
+        <h3>Samuel Spineli</h3>
+        <p><strong>Arquitetura de Software e Engenharia de Sistemas</strong></p>
+        <p>
+          <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="Samuel Spineli GitHub" /></a>
+          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
+        </p>
+      </div>
+      <p>Responsável pelo desenho arquitetural e sustentação tecnológica das plataformas:</p>
+      <ul>
+        <li>Formação em Ciência da Computação com especialidade em sistemas de alto rendimento.</li>
+        <li>Desenvolvimento full-stack moderno com Next.js, ecossistema TypeScript e aplicações nativas.</li>
+        <li>Segurança avançada, governança de banco de dados e controle de acesso a nível de registro (RLS).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 3. Configurar autenticação
+### Compromissos Operacionais de Entrega
 
-No Supabase:
+Nossas soluções seguem padrões corporativos consolidados:
 
-```text
-Authentication
-└── URL Configuration
-```
-
-Adicione a URL de callback:
-
-```text
-http://localhost:3000/auth/callback
-```
-
-Também deve ser cadastrada a URL correspondente ao ambiente de produção.
+* **Simplicidade Extrema para o Usuário Final:** Produtos pensados para requererem zero treinamento de equipe e atrito nulo para clientes externos.
+* **Segurança e Isolamento por Projeto:** Aplicação de políticas que garantem que apenas pessoas expressamente autorizadas tenham acesso a informações estratégicas do negócio.
+* **Precisão Matemática e Financeira:** Transações e cálculos monetários tratados em números absolutos, prevenindo falhas de arredondamento comuns no mercado.
+* **Continuidade e Propriedade Intelectual:** Softwares desenvolvidos com código limpo, documentação transparente e estruturas prontas para acompanhar o crescimento do cliente.
 
 ---
 
-## Desenvolvimento
+### Domínio Tecnológico
 
-Scripts principais:
+<div align="center">
 
-```bash
-npm run dev       # Desenvolvimento
-npm run build     # Build de produção
-npm start         # Executa o build
-npx eslint .      # Lint
-```
+| Especialidade | Principais Ferramentas e Padrões |
+| :--- | :--- |
+| **Interfaces e Experiência** | Next.js, React, TypeScript, Tailwind CSS, Flutter, Web Responsivo |
+| **Backend e Regras de Negócio** | Node.js, Server Actions, Python, FastAPI, Integrações RESTful |
+| **Bancos de Dados e Armazenamento** | PostgreSQL, Supabase, SQLite, Políticas RLS, Redis |
+| **Inteligência e Análise de Dados** | Python, Pandas, NumPy, Scikit-learn, Modelagem Relacional |
+| **Segurança e Infraestrutura** | Autenticação Passwordless / Magic Links, Docker, CI/CD, Linux |
 
----
-
-## Ecossistema
-
-A Fiori & Spineli não é definida por uma única tecnologia.
-
-Os projetos individuais podem utilizar stacks diferentes conforme o problema.
-
-Entre as tecnologias e áreas que fazem parte do nosso ecossistema estão:
-
-```text
-Frontend
-├── TypeScript
-├── React
-├── Next.js
-├── Vite
-├── Tailwind CSS
-└── Flutter
-
-Backend
-├── Python
-├── APIs REST
-├── Server Actions
-└── Integrações
-
-Dados
-├── PostgreSQL
-├── SQL
-├── Data Modeling
-├── Data Science
-└── Machine Learning
-
-Infraestrutura
-├── Git
-├── GitHub
-├── CI/CD
-├── Linux
-└── Cloud Services
-```
-
-A escolha da tecnologia é consequência do problema, não o contrário.
-
----
-
-## Quem está por trás
-
-### Lucas Fiori
-
-Atuação entre **dados e desenvolvimento de software**, com interesse em Data Science, Machine Learning, desenvolvimento de aplicações e bancos de dados.
-
-Projetos pessoais incluem aplicações em Python e Dart, análise de dados e projetos acadêmicos envolvendo dados e machine learning.
-
-**GitHub:** [@fiori007](https://github.com/fiori007)
-
----
-
-### Samuel Spineli
-
-**Software Developer** com formação em Ciência da Computação e experiência em engenharia de software, arquitetura de aplicações, desenvolvimento web, APIs, bancos de dados e infraestrutura.
-
-Entre seus projetos estão aplicações web e mobile, sistemas de gerenciamento, ferramentas musicais, projetos de machine learning e aplicações desktop.
-
-**GitHub:** [@samuelspineli34](https://github.com/samuelspineli34)
-
----
-
-## Filosofia
-
-A Fiori & Spineli nasceu de uma ideia simples:
-
-> **Boas soluções começam entendendo o problema, não escolhendo a tecnologia.**
-
-Por isso, nossos projetos procuram equilibrar três coisas:
-
-```text
-              ┌───────────────┐
-              │    PROBLEMA   │
-              └───────┬───────┘
-                      │
-          ┌───────────┴───────────┐
-          ▼                       ▼
-   ┌─────────────┐         ┌─────────────┐
-   │   PRODUTO   │◄────────│ TECNOLOGIA  │
-   └──────┬──────┘         └─────────────┘
-          │
-          ▼
-   ┌─────────────┐
-   │   PESSOAS   │
-   └─────────────┘
-```
-
-Não queremos apenas escrever código.
-
-Queremos entender o contexto, modelar o problema, construir a solução e descobrir o que acontece quando ela encontra usuários reais.
-
----
-
-## Roadmap
-
-O Buteco é apenas o começo.
-
-Nossa intenção é continuar desenvolvendo produtos e experimentos dentro da organização, explorando diferentes problemas, tecnologias e modelos de software.
-
-```text
-                    Fiori & Spineli
-                          │
-          ┌───────────────┼───────────────┐
-          │               │               │
-       Produtos        Experimentos       Dados
-          │               │               │
-          ▼               ▼               ▼
-       Buteco        Protótipos       Analytics
-          │               │               │
-          └───────────────┼───────────────┘
-                          │
-                          ▼
-                     Novos produtos
-```
-
-Projetos futuros podem envolver:
-
-* aplicações SaaS;
-* ferramentas para pequenos negócios;
-* automação;
-* análise de dados;
-* aplicações inteligentes;
-* ferramentas para desenvolvedores;
-* experimentos com novas tecnologias.
-
----
-
-## Repositórios
-
-Os projetos públicos da organização ficam disponíveis no GitHub:
-
-**[github.com/fiori-spineli](https://github.com/fiori-spineli)**
-
-Cada repositório possui sua própria documentação, stack e decisões arquiteturais.
-
----
-
-## Licença
-
-A licença de cada projeto é definida individualmente em seu respectivo repositório.
+</div>
 
 ---
 
 <div align="center">
 
-**Fiori & Spineli**
-
-*Software, dados e ideias transformadas em produtos.*
+  <p><strong>Fiori & Spineli</strong></p>
+  <sub>Engenharia de Software e Dados aplicada a Negócios Reais &bull; Brasil</sub>
 
 </div>
