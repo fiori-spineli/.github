@@ -1,5 +1,3 @@
-<img width="686" height="263" alt="image" src="https://github.com/user-attachments/assets/f400fc11-d764-49f3-a11f-85bc216e7c3a" /><div align="center">
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo-dark-transparent.png">
