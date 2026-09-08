@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/assets/logo.png" alt="Fiori & Spineli Logo" width="220" />
+  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/logo.png" alt="Fiori & Spineli Logo" width="220" />
 
   <h1>FIORI & SPINELI</h1>
   <p><strong>Engenharia de Software, Arquitetura de Dados e Desenvolvimento de Produtos Digitais.</strong></p>
