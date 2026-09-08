@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/assets/logo.png" alt="Fiori & Spineli" width="240" />
+  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png" alt="Fiori & Spineli" width="240" />
 
   <br />
 
