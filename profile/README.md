@@ -1,6 +1,12 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png" alt="Fiori & Spineli" width="240" />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png">
+    <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png" alt="Fiori & Spineli" width="240" />
+  </picture>
+</div>
 
   <br />
 
