@@ -5,8 +5,6 @@
     <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png" alt="Fiori & Spineli" width="240" />
   </picture>
 
-  <br /><br />
-
   <p align="center">
     <img src="https://img.shields.io/badge/FIORI%20%26%20SPINELI-ORGANIZAÇÃO%20DE%20TECNOLOGIA-18181B?style=for-the-badge" alt="Organização" />
     <img src="https://img.shields.io/badge/ENGENHARIA-SOFTWARE%20SOB%20MEDIDA-4D3A99?style=for-the-badge" alt="Engenharia" />
