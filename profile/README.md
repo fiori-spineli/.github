@@ -4,9 +4,8 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png">
     <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/profile/logo.png" alt="Fiori & Spineli" width="240" />
   </picture>
-</div>
 
-  <br />
+  <br /><br />
 
   <p align="center">
     <img src="https://img.shields.io/badge/FIORI%20%26%20SPINELI-ORGANIZAÇÃO%20DE%20TECNOLOGIA-18181B?style=for-the-badge" alt="Organização" />
@@ -21,10 +20,9 @@
 
   <p align="center">
     <a href="https://github.com/fiori-spineli"><img src="https://img.shields.io/badge/GitHub-fiori--spineli-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Org" /></a>
-    <img src="https://img.shields.io/badge/Status-Projetos%20em%20Produção-2F6A44?style=flat-square" alt="Status" />
-    <img src="https://img.shields.io/badge/Atuação-Nacional%20%26%20Remota-4D3A99?style=flat-square" alt="Atuação" />
+    <img src="https://img.shields.io/badge/Status-Projetos%20em%20Produção-2F6A44?style=flat-square&logo=render&logoColor=white" alt="Status" />
+    <img src="https://img.shields.io/badge/Atuação-Nacional%20%26%20Remota-4D3A99?style=flat-square&logo=googlemaps&logoColor=white" alt="Atuação" />
   </p>
-
 </div>
 
 ---
@@ -43,10 +41,10 @@ Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado 
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h4>Buteco &bull; Comanda Digital Inteligente</h4>
       <p>
-        <img src="https://img.shields.io/badge/Produto-Disponível%20ao%20Mercado-2F6A44?style=flat-square" alt="Status Produto" />
+        <img src="https://img.shields.io/badge/Produto-Disponível%20ao%20Mercado-2F6A44?style=flat-square&logo=checkmarx&logoColor=white" alt="Status Produto" />
       </p>
       <p>
         Plataforma desenvolvida para simplificar a gestão de consumo e cobrança em bares, restaurantes e eventos gastronômicos.
@@ -67,7 +65,6 @@ Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado 
 
 A organização reúne competências complementares de liderança em dados e arquitetura de sistemas:
 
-
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
@@ -78,7 +75,7 @@ A organização reúne competências complementares de liderança em dados e arq
         <p><strong>Ciência de Dados e Engenharia de Aplicações</strong></p>
         <p>
           <a href="https://github.com/fiori007"><img src="https://img.shields.io/badge/GitHub-fiori007-18181B?style=flat-square&logo=github&logoColor=white" alt="Lucas Fiori GitHub" /></a>
-          <a href="https://www.linkedin.com/in/lucas-fiori/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Lucas Fiori LinkedIn" /></a>
+          <a href="https://www.linkedin.com/in/lucas-fiori/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Lucas Fiori LinkedIn" /></a>
         </p>
       </div>
       <p>Responsável pelo direcionamento analítico e inteligência de dados da organização:</p>
@@ -96,7 +93,7 @@ A organização reúne competências complementares de liderança em dados e arq
         <p><strong>Arquitetura de Software e Engenharia de Sistemas</strong></p>
         <p>
           <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="Samuel Spineli GitHub" /></a>
-          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
+          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
         </p>
       </div>
       <p>Responsável pelo desenho arquitetural e sustentação tecnológica das plataformas:</p>
@@ -108,7 +105,6 @@ A organização reúne competências complementares de liderança em dados e arq
     </td>
   </tr>
 </table>
-
 
 ---
 
@@ -129,11 +125,11 @@ Nossas soluções seguem padrões corporativos consolidados:
 
 | Especialidade | Principais Ferramentas e Padrões |
 | :--- | :--- |
-| **Interfaces e Experiência** | Next.js, React, TypeScript, Tailwind CSS, Flutter, Web Responsivo |
-| **Backend e Regras de Negócio** | Node.js, Server Actions, Python, FastAPI, Integrações RESTful |
-| **Bancos de Dados e Armazenamento** | PostgreSQL, Supabase, SQLite, Políticas RLS, Redis |
-| **Inteligência e Análise de Dados** | Python, Pandas, NumPy, Scikit-learn, Modelagem Relacional |
-| **Segurança e Infraestrutura** | Autenticação Passwordless / Magic Links, Docker, CI/CD, Linux |
+| **Interfaces e Experiência** | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" /> |
+| **Backend e Regras de Negócio** | <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Server_Actions-4D3A99?style=flat-square" /> <img src="https://img.shields.io/badge/REST_APIs-18181B?style=flat-square" /> |
+| **Bancos de Dados e Armazenamento** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL_RLS-2F6A44?style=flat-square" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /> |
+| **Inteligência e Análise de Dados** | <img src="https://img.shields.io/badge/Python_Data-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /> |
+| **Segurança e Infraestrutura** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> <img src="https://img.shields.io/badge/Magic_Links-18181B?style=flat-square" /> |
 
 </div>
 
