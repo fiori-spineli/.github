@@ -58,40 +58,6 @@ Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado 
         <li><strong>Painel de Gestão para o Gestor:</strong> Controle completo do fluxo de comandas, catálogo de itens e relatórios de faturamento pelo celular ou computador.</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <h4>Engenharia &bull; Sistemas Web e Mobile sob Demanda</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Serviço-Desenvolvimento%20Ativo-4D3A99?style=flat-square" alt="Status Serviço" />
-      </p>
-      <p>
-        Concepção de plataformas corporativas, painéis de operação internos e sistemas SaaS personalizados para negócios em expansão.
-      </p>
-      <p><strong>O que entrega para o cliente:</strong></p>
-      <ul>
-        <li><strong>Softwares rápidos e escaláveis:</strong> Aplicações modernas com tempos de resposta mínimos e estabilidade comprovada sob alta demanda.</li>
-        <li><strong>Segurança corporativa:</strong> Isolamento estrito de dados, conformidade com privacidade e proteção de transações críticas.</li>
-        <li><strong>Foco no retorno sobre investimento:</strong> Interfaces intuitivas desenhadas especificamente para reduzir custos operacionais e acelerar tarefas do dia a dia.</li>
-      </ul>
-    </td>
-  </tr>
-      <td width="50%" valign="top">
-      <div align="center">
-        <br />
-        <img src="https://github.com/samuelspineli34.png" width="95" style="border-radius: 50%;" alt="Samuel Spineli" />
-        <h3>Samuel Spineli</h3>
-        <p><strong>Arquitetura de Software e Engenharia de Sistemas</strong></p>
-        <p>
-          <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="Samuel Spineli GitHub" /></a>
-          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
-        </p>
-      </div>
-      <p>Responsável pelo desenho arquitetural e sustentação tecnológica das plataformas:</p>
-      <ul>
-        <li>Formação em Ciência da Computação com especialidade em sistemas de alto rendimento.</li>
-        <li>Desenvolvimento full-stack moderno com Next.js, ecossistema TypeScript e aplicações nativas.</li>
-        <li>Segurança avançada, governança de banco de dados e controle de acesso a nível de registro (RLS).</li>
-      </ul>
-    </td>
   </tr>
 </table>
 
@@ -100,6 +66,7 @@ Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado 
 ### Liderança Técnica
 
 A organização reúne competências complementares de liderança em dados e arquitetura de sistemas:
+
 
 <table width="100%">
   <tr>
@@ -121,7 +88,27 @@ A organização reúne competências complementares de liderança em dados e arq
         <li>Desenvolvimento de aplicações com foco na interpretação e fluxo de informações em tempo real.</li>
       </ul>
     </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <br />
+        <img src="https://github.com/samuelspineli34.png" width="95" style="border-radius: 50%;" alt="Samuel Spineli" />
+        <h3>Samuel Spineli</h3>
+        <p><strong>Arquitetura de Software e Engenharia de Sistemas</strong></p>
+        <p>
+          <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="Samuel Spineli GitHub" /></a>
+          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
+        </p>
+      </div>
+      <p>Responsável pelo desenho arquitetural e sustentação tecnológica das plataformas:</p>
+      <ul>
+        <li>Formação em Ciência da Computação com especialidade em sistemas de alto rendimento.</li>
+        <li>Desenvolvimento full-stack moderno com Next.js, ecossistema TypeScript e aplicações nativas.</li>
+        <li>Segurança avançada, governança de banco de dados e controle de acesso a nível de registro (RLS).</li>
+      </ul>
+    </td>
+  </tr>
 </table>
+
 
 ---
 
