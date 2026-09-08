@@ -70,38 +70,6 @@ Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado 
       </ul>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Dados &bull; Modelagem e Inteligência de Decisão</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Frente-Análise%20%26%20Estratégia-4D3A99?style=flat-square" alt="Status Dados" />
-      </p>
-      <p>
-        Estruturação de bancos de dados eficientes, automações analíticas e aplicação de aprendizado de máquina para tomada de decisão fundamentada.
-      </p>
-      <p><strong>O que entrega para o cliente:</strong></p>
-      <ul>
-        <li>Organização e consolidação de dados transacionais fragmentados.</li>
-        <li>Dashboards executivos com métricas claras de desempenho.</li>
-        <li>Modelos estatísticos e preditivos para controle de estoque, sazonalidade e comportamento de clientes.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Automação &bull; Otimização de Processos Comerciais</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Frente-Eficiência%20Operacional-2F6A44?style=flat-square" alt="Status Automação" />
-      </p>
-      <p>
-        Integração entre sistemas legados, gateways de pagamento, mensageria e ferramentas de atendimento.
-      </p>
-      <p><strong>O que entrega para o cliente:</strong></p>
-      <ul>
-        <li>Eliminação de tarefas manuais e retrabalho de planilhas.</li>
-        <li>Fluxos automatizados de notificação e faturamento.</li>
-        <li>Sincronização em tempo real entre vendas, estoque e retaguarda financeira.</li>
-      </ul>
-    </td>
-  </tr>
 </table>
 
 ---
