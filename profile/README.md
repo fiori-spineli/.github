@@ -33,6 +33,107 @@ A organização existe para dar um lugar comum a todos eles.
 
 ---
 
+## Quem está por trás
+
+### Lucas Fiori
+
+Atuação entre **dados e desenvolvimento de software**, com interesse em Data Science, Machine Learning, desenvolvimento de aplicações e bancos de dados.
+
+Projetos pessoais incluem aplicações em Python e Dart, análise de dados e projetos acadêmicos envolvendo dados e machine learning.
+
+**GitHub:** [@fiori007](https://github.com/fiori007)
+
+**Linkedin:** [Lucas Fiori](https://www.linkedin.com/in/lucas-fiori/)
+
+---
+
+### Samuel Spineli
+
+**Software Developer** com formação em Ciência da Computação e experiência em engenharia de software, arquitetura de aplicações, desenvolvimento web, APIs, bancos de dados e infraestrutura.
+
+Entre seus projetos estão aplicações web e mobile, sistemas de gerenciamento, ferramentas musicais, projetos de machine learning e aplicações desktop.
+
+**GitHub:** [@samuelspineli34](https://github.com/samuelspineli34)
+
+**Linkedin:** [Samuel Spineli](https://www.linkedin.com/in/samuel-spineli/)
+
+---
+
+## Filosofia
+
+A Fiori & Spineli nasceu de uma ideia simples:
+
+> **Boas soluções começam entendendo o problema, não escolhendo a tecnologia.**
+
+Por isso, nossos projetos procuram equilibrar três coisas:
+
+```text
+              ┌───────────────┐
+              │    PROBLEMA   │
+              └───────┬───────┘
+                      │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+   ┌─────────────┐         ┌─────────────┐
+   │   PRODUTO   │◄────────│ TECNOLOGIA  │
+   └──────┬──────┘         └─────────────┘
+          │
+          ▼
+   ┌─────────────┐
+   │   PESSOAS   │
+   └─────────────┘
+```
+
+Não queremos apenas escrever código.
+
+Queremos entender o contexto, modelar o problema, construir a solução e descobrir o que acontece quando ela encontra usuários reais.
+
+---
+
+## Roadmap
+
+O Buteco é apenas o começo.
+
+Nossa intenção é continuar desenvolvendo produtos e experimentos dentro da organização, explorando diferentes problemas, tecnologias e modelos de software.
+
+```text
+                    Fiori & Spineli
+                          │
+          ┌───────────────┼───────────────┐
+          │               │               │
+       Produtos        Experimentos       Dados
+          │               │               │
+          ▼               ▼               ▼
+       Buteco        Protótipos       Analytics
+          │               │               │
+          └───────────────┼───────────────┘
+                          │
+                          ▼
+                     Novos produtos
+```
+
+Projetos futuros podem envolver:
+
+* aplicações SaaS;
+* ferramentas para pequenos negócios;
+* automação;
+* análise de dados;
+* aplicações inteligentes;
+* ferramentas para desenvolvedores;
+* experimentos com novas tecnologias.
+
+---
+
+## Repositórios
+
+Os projetos públicos da organização ficam disponíveis no GitHub:
+
+**[github.com/fiori-spineli](https://github.com/fiori-spineli)**
+
+Cada repositório possui sua própria documentação, stack e decisões arquiteturais.
+
+---
+
 ## Projetos
 
 ### 🍻 Buteco
@@ -328,105 +429,6 @@ Infraestrutura
 ```
 
 A escolha da tecnologia é consequência do problema, não o contrário.
-
----
-
-## Quem está por trás
-
-### Lucas Fiori
-
-Atuação entre **dados e desenvolvimento de software**, com interesse em Data Science, Machine Learning, desenvolvimento de aplicações e bancos de dados.
-
-Projetos pessoais incluem aplicações em Python e Dart, análise de dados e projetos acadêmicos envolvendo dados e machine learning.
-
-**GitHub:** [@fiori007](https://github.com/fiori007)
-**Linkedin:** [Lucas Fiori](https://www.linkedin.com/in/lucas-fiori/)
-
----
-
-### Samuel Spineli
-
-**Software Developer** com formação em Ciência da Computação e experiência em engenharia de software, arquitetura de aplicações, desenvolvimento web, APIs, bancos de dados e infraestrutura.
-
-Entre seus projetos estão aplicações web e mobile, sistemas de gerenciamento, ferramentas musicais, projetos de machine learning e aplicações desktop.
-
-**GitHub:** [@samuelspineli34](https://github.com/samuelspineli34)
-**Linkedin:** [Samuel Spineli](https://www.linkedin.com/in/samuel-spineli/)
-
----
-
-## Filosofia
-
-A Fiori & Spineli nasceu de uma ideia simples:
-
-> **Boas soluções começam entendendo o problema, não escolhendo a tecnologia.**
-
-Por isso, nossos projetos procuram equilibrar três coisas:
-
-```text
-              ┌───────────────┐
-              │    PROBLEMA   │
-              └───────┬───────┘
-                      │
-          ┌───────────┴───────────┐
-          ▼                       ▼
-   ┌─────────────┐         ┌─────────────┐
-   │   PRODUTO   │◄────────│ TECNOLOGIA  │
-   └──────┬──────┘         └─────────────┘
-          │
-          ▼
-   ┌─────────────┐
-   │   PESSOAS   │
-   └─────────────┘
-```
-
-Não queremos apenas escrever código.
-
-Queremos entender o contexto, modelar o problema, construir a solução e descobrir o que acontece quando ela encontra usuários reais.
-
----
-
-## Roadmap
-
-O Buteco é apenas o começo.
-
-Nossa intenção é continuar desenvolvendo produtos e experimentos dentro da organização, explorando diferentes problemas, tecnologias e modelos de software.
-
-```text
-                    Fiori & Spineli
-                          │
-          ┌───────────────┼───────────────┐
-          │               │               │
-       Produtos        Experimentos       Dados
-          │               │               │
-          ▼               ▼               ▼
-       Buteco        Protótipos       Analytics
-          │               │               │
-          └───────────────┼───────────────┘
-                          │
-                          ▼
-                     Novos produtos
-```
-
-Projetos futuros podem envolver:
-
-* aplicações SaaS;
-* ferramentas para pequenos negócios;
-* automação;
-* análise de dados;
-* aplicações inteligentes;
-* ferramentas para desenvolvedores;
-* experimentos com novas tecnologias.
-
----
-
-## Repositórios
-
-Os projetos públicos da organização ficam disponíveis no GitHub:
-
-**[github.com/fiori-spineli](https://github.com/fiori-spineli)**
-
-Cada repositório possui sua própria documentação, stack e decisões arquiteturais.
 
 ---
 
