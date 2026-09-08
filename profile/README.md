@@ -1,48 +1,104 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/logo.png" alt="Fiori & Spineli Logo" width="220" />
+  <img src="https://raw.githubusercontent.com/fiori-spineli/.github/main/assets/logo.png" alt="Fiori & Spineli" width="240" />
 
-  <h1>FIORI & SPINELI</h1>
-  <p><strong>Engenharia de Software, Arquitetura de Dados e Desenvolvimento de Produtos Digitais.</strong></p>
+  <br />
 
-  <p>
-    <a href="https://github.com/fiori-spineli"><img src="https://img.shields.io/badge/Organização-GitHub-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Org" /></a>
-    <img src="https://img.shields.io/badge/Foco-Engenharia%20%26%20Dados-4D3A99?style=flat-square" alt="Foco" />
-    <img src="https://img.shields.io/badge/Status-Desenvolvimento%20Ativo-3F6B4D?style=flat-square" alt="Status" />
+  <p align="center">
+    <img src="https://img.shields.io/badge/FIORI%20%26%20SPINELI-ORGANIZAÇÃO%20DE%20TECNOLOGIA-18181B?style=for-the-badge" alt="Organização" />
+    <img src="https://img.shields.io/badge/ENGENHARIA-SOFTWARE%20SOB%20MEDIDA-4D3A99?style=for-the-badge" alt="Engenharia" />
+    <img src="https://img.shields.io/badge/INTELIGÊNCIA-DADOS%20%26%20PRODUTO-2F6A44?style=for-the-badge" alt="Dados" />
+  </p>
+
+  <p align="center">
+    <strong>Desenvolvimento de produtos digitais, sistemas operacionais de alto desempenho e soluções orientadas a dados.</strong><br />
+    Projetamos e entregamos tecnologia robusta para resolver gargalos operacionais e viabilizar novos modelos de negócio.
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/fiori-spineli"><img src="https://img.shields.io/badge/GitHub-fiori--spineli-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Org" /></a>
+    <img src="https://img.shields.io/badge/Status-Projetos%20em%20Produção-2F6A44?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Atuação-Nacional%20%26%20Remota-4D3A99?style=flat-square" alt="Atuação" />
   </p>
 
 </div>
 
 ---
 
-### Visão Geral
+### Visão Institucional
 
-A **Fiori & Spineli** é uma organização independente dedicada à concepção, modelagem e construção de software resiliente. Fundada por **Lucas Fiori** e **Samuel Spineli**, a iniciativa opera na interseção entre rigor de engenharia de software, arquitetura de dados e usabilidade centrada em problemas reais de mercado.
+A **Fiori & Spineli** atua na concepção, estruturação técnica e lançamento de soluções digitais prontas para o mercado. Unimos engenharia de software de alta confiabilidade a estratégias sólidas de dados para transformar necessidades comerciais complexas em produtos simples de operar e tecnicamente sustentáveis a longo prazo.
 
-Nossa operação baseia-se na premissa de que a tecnologia é uma consequência do domínio do problema. Projetamos sistemas que priorizam consistência transacional, baixo atrito para o usuário final, contenção de privilégios e eficiência operacional.
+Nosso diferencial competitivo reside no equilíbrio: eliminamos atritos e burocracias para o usuário na ponta final, enquanto mantemos uma base técnica estrita em segurança, precisão transacional e disponibilidade.
 
 ---
 
-### Linhas de Atuação
+### Soluções e Produtos
+
+Apresentamos abaixo nossos produtos e frentes de desenvolvimento para o mercado corporativo e comercial:
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>Engenharia de Aplicações</h4>
+      <h4>Buteco &bull; Comanda Digital Inteligente</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Produto-Disponível%20ao%20Mercado-2F6A44?style=flat-square" alt="Status Produto" />
+      </p>
+      <p>
+        Plataforma desenvolvida para simplificar a gestão de consumo e cobrança em bares, restaurantes e eventos gastronômicos.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
       <ul>
-        <li>Desenvolvimento full-stack de alta performance (Web e Mobile)</li>
-        <li>Arquitetura orientada a serviços e Serverless / Edge Computing</li>
-        <li>Projetos Offline-First e interfaces com fricção reduzida</li>
-        <li>Design de APIs RESTful e contratos de integração seguros</li>
+        <li><strong>Sem download e sem cadastro:</strong> O consumidor aponta a câmera do celular para o QR Code da mesa e acessa a conta em tempo real, sem necessidade de baixar aplicativos ou criar logins.</li>
+        <li><strong>Redução de filas e erros:</strong> Transparência imediata de consumo, permitindo divisão de conta instantânea e fechamento ágil de pedidos.</li>
+        <li><strong>Painel de Gestão para o Gestor:</strong> Controle completo do fluxo de comandas, catálogo de itens e relatórios de faturamento pelo celular ou computador.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>Inteligência e Dados</h4>
+      <h4>Engenharia &bull; Sistemas Web e Mobile sob Demanda</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Serviço-Desenvolvimento%20Ativo-4D3A99?style=flat-square" alt="Status Serviço" />
+      </p>
+      <p>
+        Concepção de plataformas corporativas, painéis de operação internos e sistemas SaaS personalizados para negócios em expansão.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
       <ul>
-        <li>Modelagem relacional, indexação e integridade transacional</li>
-        <li>Pipelines de processamento, análise e Ciência de Dados</li>
-        <li>Integração de modelos de Machine Learning e Inteligência Artificial</li>
-        <li>Automação analítica voltada a tomada de decisão</li>
+        <li><strong>Softwares rápidos e escaláveis:</strong> Aplicações modernas com tempos de resposta mínimos e estabilidade comprovada sob alta demanda.</li>
+        <li><strong>Segurança corporativa:</strong> Isolamento estrito de dados, conformidade com privacidade e proteção de transações críticas.</li>
+        <li><strong>Foco no retorno sobre investimento:</strong> Interfaces intuitivas desenhadas especificamente para reduzir custos operacionais e acelerar tarefas do dia a dia.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Dados &bull; Modelagem e Inteligência de Decisão</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Frente-Análise%20%26%20Estratégia-4D3A99?style=flat-square" alt="Status Dados" />
+      </p>
+      <p>
+        Estruturação de bancos de dados eficientes, automações analíticas e aplicação de aprendizado de máquina para tomada de decisão fundamentada.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li>Organização e consolidação de dados transacionais fragmentados.</li>
+        <li>Dashboards executivos com métricas claras de desempenho.</li>
+        <li>Modelos estatísticos e preditivos para controle de estoque, sazonalidade e comportamento de clientes.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Automação &bull; Otimização de Processos Comerciais</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Frente-Eficiência%20Operacional-2F6A44?style=flat-square" alt="Status Automação" />
+      </p>
+      <p>
+        Integração entre sistemas legados, gateways de pagamento, mensageria e ferramentas de atendimento.
+      </p>
+      <p><strong>O que entrega para o cliente:</strong></p>
+      <ul>
+        <li>Eliminação de tarefas manuais e retrabalho de planilhas.</li>
+        <li>Fluxos automatizados de notificação e faturamento.</li>
+        <li>Sincronização em tempo real entre vendas, estoque e retaguarda financeira.</li>
       </ul>
     </td>
   </tr>
@@ -50,124 +106,83 @@ Nossa operação baseia-se na premissa de que a tecnologia é uma consequência 
 
 ---
 
-### Fundadores e Liderança Técnica
+### Liderança Técnica
+
+A organização reúne competências complementares de liderança em dados e arquitetura de sistemas:
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>Lucas Fiori</h3>
-      <p><strong>Dados, Inteligência Artificial & Engenharia de Aplicações</strong></p>
-      <p>Atuação focada na estruturação analítica, modelagem de dados, algoritmos de Machine Learning e desenvolvimento de software orientado a dados. Experiência na concepção de soluções inteligentes, integração de modelos estatísticos e engenharia de pipelines de dados sustentáveis.</p>
-      <p>
-        <a href="https://github.com/fiori007"><img src="https://img.shields.io/badge/GitHub-fiori007-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Lucas Fiori" /></a>
-        <a href="https://www.linkedin.com/in/lucas-fiori/"><img src="https://img.shields.io/badge/LinkedIn-Lucas%20Fiori-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Lucas Fiori" /></a>
-      </p>
+      <div align="center">
+        <br />
+        <img src="https://github.com/fiori007.png" width="95" style="border-radius: 50%;" alt="Lucas Fiori" />
+        <h3>Lucas Fiori</h3>
+        <p><strong>Ciência de Dados e Engenharia de Aplicações</strong></p>
+        <p>
+          <a href="https://github.com/fiori007"><img src="https://img.shields.io/badge/GitHub-fiori007-18181B?style=flat-square&logo=github&logoColor=white" alt="Lucas Fiori GitHub" /></a>
+          <a href="https://www.linkedin.com/in/lucas-fiori/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Lucas Fiori LinkedIn" /></a>
+        </p>
+      </div>
+      <p>Responsável pelo direcionamento analítico e inteligência de dados da organização:</p>
+      <ul>
+        <li>Modelagem estatística, Machine Learning e automação analítica.</li>
+        <li>Estruturação e organização de bancos de dados relacionais e analíticos.</li>
+        <li>Desenvolvimento de aplicações com foco na interpretação e fluxo de informações em tempo real.</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>Samuel Spineli</h3>
-      <p><strong>Engenharia de Software, Arquitetura de Sistemas & Performance</strong></p>
-      <p>Cientista da Computação com foco em engenharia de sistemas escaláveis, arquitetura de aplicações web/mobile, infraestrutura, modelagem de banco de dados e computação de alta concorrência. Experiência na definição de padrões de projeto e governança técnica de ponta a ponta.</p>
-      <p>
-        <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="GitHub Samuel Spineli" /></a>
-        <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Samuel%20Spineli-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Samuel Spineli" /></a>
-      </p>
+      <div align="center">
+        <br />
+        <img src="https://github.com/samuelspineli34.png" width="95" style="border-radius: 50%;" alt="Samuel Spineli" />
+        <h3>Samuel Spineli</h3>
+        <p><strong>Arquitetura de Software e Engenharia de Sistemas</strong></p>
+        <p>
+          <a href="https://github.com/samuelspineli34"><img src="https://img.shields.io/badge/GitHub-samuelspineli34-18181B?style=flat-square&logo=github&logoColor=white" alt="Samuel Spineli GitHub" /></a>
+          <a href="https://www.linkedin.com/in/samuel-spineli/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-4D3A99?style=flat-square&logo=linkedin&logoColor=white" alt="Samuel Spineli LinkedIn" /></a>
+        </p>
+      </div>
+      <p>Responsável pelo desenho arquitetural e sustentação tecnológica das plataformas:</p>
+      <ul>
+        <li>Formação em Ciência da Computação com especialidade em sistemas de alto rendimento.</li>
+        <li>Desenvolvimento full-stack moderno com Next.js, ecossistema TypeScript e aplicações nativas.</li>
+        <li>Segurança avançada, governança de banco de dados e controle de acesso a nível de registro (RLS).</li>
+      </ul>
     </td>
   </tr>
 </table>
 
 ---
 
-### Portfólio em Destaque
+### Compromissos Operacionais de Entrega
 
-#### Buteco
+Nossas soluções seguem padrões corporativos consolidados:
 
-SaaS operacional concebido para modernizar a gestão e acompanhamento de contas de consumo de pequeno e médio porte, substituindo controles manuais por um fluxo digital sem atrito de cadastro para o cliente.
-
-* **Acesso Zero-Friction:** Acesso público instantâneo por tokenização e QR Code, sem obrigatoriedade de instalação de software ou autenticação pelo consumidor final.
-* **Segurança na Camada de Dados:** Autenticação via Magic Link e isolamento estrito entre locatários suportado por *PostgreSQL Row Level Security (RLS)*.
-* **Encapsulamento por RPC:** O cliente anônimo consome os dados exclusivamente através de uma Remote Procedure Call (`comanda_publica(token)`), mitigando varredura e enumeração de dados públicos.
-* **Precisão Aritmética:** Tratamento de valores financeiros como inteiros representados em centavos, eliminando desvios de arredondamento de ponto flutuante (*floating point roundoff error*).
-
-```text
-+-----------------------------------------------------------------------+
-|                              BUTECO APP                               |
-+-----------------------------------------------------------------------+
-|                                                                       |
-|  Estabelecimento (Proprietario)            Cliente Final (Consumidor) |
-|         |                                              |              |
-|         | Next.js App / Server Actions                 | QR Code / URL|
-|         v                                              v              |
-|  [ Dashboard Administrativo ]                [ Visao Publica / c/[token] ]
-|         |                                              |              |
-|         | RLS Policies                                 | RPC Execution|
-|         +----------------------+-----------------------+              |
-|                                |                                      |
-|                                v                                      |
-|                   [ PostgreSQL / Supabase Core ]                      |
-|                   - Schema Relacional                                 |
-|                   - RLS Enforcement                                   |
-|                   - Storage com Processamento Sharp                   |
-+-----------------------------------------------------------------------+
-```
-
-* **Repositório do Produto:** [github.com/fiori-spineli/buteco](https://github.com/fiori-spineli)
+* **Simplicidade Extrema para o Usuário Final:** Produtos pensados para requererem zero treinamento de equipe e atrito nulo para clientes externos.
+* **Segurança e Isolamento por Projeto:** Aplicação de políticas que garantem que apenas pessoas expressamente autorizadas tenham acesso a informações estratégicas do negócio.
+* **Precisão Matemática e Financeira:** Transações e cálculos monetários tratados em números absolutos, prevenindo falhas de arredondamento comuns no mercado.
+* **Continuidade e Propriedade Intelectual:** Softwares desenvolvidos com código limpo, documentação transparente e estruturas prontas para acompanhar o crescimento do cliente.
 
 ---
 
-### Princípios de Engenharia
-
-1. **Rigor Transacional e Domínio do Dado:** 
-   O banco de dados é tratado como componente ativo de integridade e segurança, e não como um repositório passivo. Regras fundamentais de autorização são executadas diretamente via banco de dados (Row Level Security e RPCs com restrições explícitas de privilégio).
-
-2. **Eliminação de Atrito Funcional:** 
-   Se uma funcionalidade impõe barreiras excessivas para o usuário (instalação compulsória, criação de credenciais para tarefas efêmeras ou passos redundantes), a arquitetura do produto é reformulada.
-
-3. **Modelagem Orientada à Precisão:** 
-   Tipagens estritas e manipulação determinística de dados. Decisões técnicas são justificadas por restrições operacionais e eficiência de execução, evitando sobrecarga desnecessária de dependências.
-
----
-
-### Matriz Tecnológica
+### Domínio Tecnológico
 
 <div align="center">
 
-| Domínio | Ferramental e Tecnologias |
+| Especialidade | Principais Ferramentas e Padrões |
 | :--- | :--- |
-| **Linguagens** | TypeScript, Python, Dart, SQL, C/C++ |
-| **Frontend & UI** | Next.js (App Router), React, Vite, Tailwind CSS, Flutter |
-| **Backend & APIs** | Server Actions, Node.js, FastAPI, REST Architectures |
-| **Bancos de Dados & Storage** | PostgreSQL, Supabase, SQLite, Redis |
-| **Dados & Machine Learning** | Pandas, NumPy, Scikit-learn, Modelagem Relacional |
-| **Infraestrutura & DevOps** | Git, GitHub Actions, Docker, Linux Systems |
+| **Interfaces e Experiência** | Next.js, React, TypeScript, Tailwind CSS, Flutter, Web Responsivo |
+| **Backend e Regras de Negócio** | Node.js, Server Actions, Python, FastAPI, Integrações RESTful |
+| **Bancos de Dados e Armazenamento** | PostgreSQL, Supabase, SQLite, Políticas RLS, Redis |
+| **Inteligência e Análise de Dados** | Python, Pandas, NumPy, Scikit-learn, Modelagem Relacional |
+| **Segurança e Infraestrutura** | Autenticação Passwordless / Magic Links, Docker, CI/CD, Linux |
 
 </div>
-
----
-
-### Estrutura Organizacional
-
-```text
-fiori-spineli/
-├── Produtos/
-│   └── Buteco/                  # Gestao digital de consumo para estabelecimentos
-├── Inteligencia-e-Dados/        # Pipelines, modelos de predicao e analise estatistica
-├── Componentes-Core/            # Modulos utilitarios, seguranca e bibliotecas base
-└── Pesquisa-e-Prototipacao/     # Validacao de hipoteses tecnicas e novos conceitos
-```
 
 ---
 
 <div align="center">
 
-  <sub>Fiori & Spineli &bull; Organização de Tecnologia e Inovação Independente</sub>
+  <p><strong>Fiori & Spineli</strong></p>
+  <sub>Engenharia de Software e Dados aplicada a Negócios Reais &bull; Brasil</sub>
 
 </div>
-
-### Dicas de Configuração no GitHub
-
-1. Para que essa página seja renderizada como a página oficial da organização no GitHub, crie um repositório público chamado exatamente **`.github`** dentro da organização `fiori-spineli`.
-2. Salve o conteúdo acima no caminho:
-   ```text
-   .github/profile/README.md
-   ```
-3. Crie a pasta `.github/assets/` e adicione o arquivo da sua logo com o nome `logo.png` para que o cabeçalho seja carregado automaticamente sem links quebrados.
