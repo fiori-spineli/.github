@@ -340,6 +340,7 @@ Atuação entre **dados e desenvolvimento de software**, com interesse em Data S
 Projetos pessoais incluem aplicações em Python e Dart, análise de dados e projetos acadêmicos envolvendo dados e machine learning.
 
 **GitHub:** [@fiori007](https://github.com/fiori007)
+**Linkedin:** [Lucas Fiori](https://www.linkedin.com/in/lucas-fiori/)
 
 ---
 
@@ -350,6 +351,7 @@ Projetos pessoais incluem aplicações em Python e Dart, análise de dados e pro
 Entre seus projetos estão aplicações web e mobile, sistemas de gerenciamento, ferramentas musicais, projetos de machine learning e aplicações desktop.
 
 **GitHub:** [@samuelspineli34](https://github.com/samuelspineli34)
+**Linkedin:** [Samuel Spineli](https://www.linkedin.com/in/samuel-spineli/)
 
 ---
 
